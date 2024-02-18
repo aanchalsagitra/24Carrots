@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- navbar ================================================= -->
+    <nav id="navbar" class="main-navbar">
+      <div id="main-navbar-division">
+        <ul class="main-navigation-lists-menu">
+          <!-- ---first element -->
+          <li class="navigation-items" id="about-list">
+            <a href="#">About</a>
+            <ul class="main-navigation-sublists-menu">
+              <li class="navigation-subitems">
+                <a href="#">About 24 Carrots</a>
+              </li>
+              <li class="navigation-subitems">
+                <a href="#">Team</a>
+              </li>
+              <li class="navigation-subitems">
+                <a href="#">Award and Pess</a>
+              </li>
+              <li class="navigation-subitems">
+                <a href="#">Blog</a>
+              </li>
+            </ul>
+          </li>
+          <!-- ------second element of navbar  -->
+          <li class="navigation-items" id="services-list">
+            <a href="#">Services</a>
+            <ul class="main-navigation-sublists-menu">
+              <li class="navigation-subitems">
+                <a href="#">Garmet Catering</a>
+              </li>
+              <li class="navigation-subitems">
+                <a href="#">Bar Services</a>
+              </li>
+              <li class="navigation-subitems">
+                <a href="#">Staff</a>
+              </li>
+              <li class="navigation-subitems">
+                <a href="#">Protection</a>
+              </li>
+            </ul>
+          </li>
+          <!-- ----third elemetn of navbar ============= -->
+
+          <li class="navigation-items" id="event-list">
+            <a href="#">Event</a>
+            <ul class="main-navigation-sublists-menu">
+              <li class="navigation-subitems">
+                <a href="#">Wedding</a>
+              </li>
+              <li class="navigation-subitems">
+                <a href="#">Corporate</a>
+              </li>
+              <li class="navigation-subitems">
+                <a href="#">Social</a>
+              </li>
+              <li class="navigation-subitems">
+                <a href="#">Gallery</a>
+              </li>
+            </ul>
+          </li>
+
+          <!-- ---Fourth element of navbar  -->
+
+          <li class="navigation-items">
+            <a href="#"
+              ><h1>24 CARROTS</h1>
+              Catering and Services</a
+            >
+          </li>
+          <!-- ---fifth element of navbar  -->
+
+          <li class="navigation-items">
+            <a href="#">Venue</a>
+          </li>
+          <!-- ---Sixth element of navbar  -->
+
+          <li class="navigation-items">
+            <a href="#">Carrers</a>
+          </li>
+          <li class="navigation-items">
+            <a class="btn" href="#">Get in Touch</a>
+          </li>
+        </ul>
+
+        <!-- ---btn  -->
+      </div>
+    </nav>
+
+    <!-- main homepage with video  -->
+
+    <main class="video-container">
+      <video autoplay loop muted>
+        <source src="Assests/24carrtos-home-banner.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="content-overlay">
+        <h2 id="video-heading">Simply the Finest</h2>
+      </div>
+    </main>
+
+    <!-- remarkable catering and events  -->
+
+    <section class="welcome-section">
+      <div class="welcome-content">
+        <h3>Welcome to 24Carrots</h3>
+        <h2>Remarkable Catering & Events</h2>
+        <p>
+          24 Carrots is the premier catering and events company of choice in
+          Southern California. We create remarkable experiences by offering the
+          finest quality foods and providing unsurpassed personalized service,
+          driven by our passion for life’s special occasions.
+        </p>
+        <a class="btn touchbtn" href="#">GET IN TOUCH></a>
+      </div>
+      <div class="image-section">
+        <img
+          id="mainImage"
+          src="Assests/Remarkable-Catering-and-Events-img1.jpg"
+          alt="Image"
+        />
+        <div class="buttons">
+          <button
+            class="changeimg-btn"
+            onclick="changeImage('Assests/Remarkable-Catering-and-Events-img1.jpg')"
+          ></button>
+          <button
+            class="changeimg-btn"
+            onclick="changeImage('Assests/Remarkable-Catering-and-Events-img2.jpg')"
+          ></button>
+          <button
+            class="changeimg-btn"
+            onclick="changeImage('Assests/Remarkable-Catering-and-Events-img3.jpg')"
+          ></button>
+          <button
+            class="changeimg-btn"
+            onclick="changeImage('Assests/Remarkable-Catering-and-Events-img4.jpg')"
+          ></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----look about the services -------------- -->
+
+    <section class="services-section">
+      <div class="services-image-section">
+        <img src="Assests/services-wedding-img1.jpg" alt="Image" />
+      </div>
+      <div class="services-content-section">
+        <div class="services-content-section-heading">
+          <h2>Making Every Experience Magical</h2>
+        </div>
+        <div class="services-content-section-details">
+          <div class="services-content-section-links">
+            <a href="#" style="color: #1a4122">Wedding</a>
+            <a href="#">Social</a>
+            <a href="#">Corporate</a>
+            <a href="#">Venues</a>
+          </div>
+          <div class="services-content-section-description">
+            <h3>EXCEPTIONAL WEDDINGS</h3>
+            <p>
+              The most important day of your life, is ours too. Your wedding
+              should be the ultimate celebration of your relationship, and our
+              team of experts guide you through the process, offering peace of
+              mind and a remarkable experience.
+            </p>
+            <a href="#" class="btn">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- venue section =---------------- -->
+    <section class="venue-section">
+      <div class="circle-banner">
+        <div class="half-circle"></div>
+      </div>
+
+      <div class="circle-content">
+        <div class="content-description">
+          <h3>VENUES</h3>
+          <h2>Unforgettable Venues</h2>
+          <p>
+            24 Carrots is the exclusive or preferred caterer at Southern
+            California’s most spectacular properties. From intimate understated
+            spaces to large and luxurious, we’ll help you find the event venue
+            that makes your heart skip a&nbsp;beat.
+          </p>
+          <p>
+            <a class="btn" href="#">Explore&nbsp;venues</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- youtube video section -------------------- -->
+    <section class="youtube-video-section">
+      <div class="youtube-video-section-description">
+        <h2>Far More Than Just Business</h2>
+        <p>
+          The way you do anything is the way you do everything. We haven’t
+          cracked the code on catering; we simply care unreasonably about every
+          aspect of what we do. We care about people as much as we care about
+          details, and we absolutely refuse to compromise on making your day
+          anything but the best. We’ve got your back from the initial idea to
+          the final farewell!
+        </p>
+      </div>
+      <div class="youtube-video-section-video">
+        <!-- <img onclick="addiframe()" src="Assests/youtubesection-img.jpg" alt="image"> -->
+        <iframe
+          id="youtubeVideo"
+          width="900"
+          height="500"
+          src="https://www.youtube.com/embed/7gPP9hsV4a0?si=7nei2fWXvLF1bqk3"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- about food section  -->
+    <section class="about-food-section">
+      <div class="about-food-section-description">
+        <h2>Great Food & A Whole Lot More</h2>
+        <p>
+          Catering is just the beginning. Sure, we love astonishing your guests
+          with attentive service, thoughtful food, and an inviting environment.
+          But what really matters most is helping you create memories that will
+          last for a lifetime. Our industry experts think of all the little
+          things that turn an ordinary event into an unforgettable experience.
+        </p>
+        <a class="btn" href="#"> Explore Services</a>
+      </div>
+    </section>
+
+    <!-- home services section  -->
+
+    <section class="home-services-section">
+      <div class="home-services-divisions">
+        <div class="home-services-content">
+          <h4>Gourmet Catering</h4>
+          <p>
+            Our professionally-trained culinary team is passionate and proud of
+            our diverse and thoughtful menu, always cooking up something that
+            aligns with your great taste.
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="home-services-content">
+          <h4>Bar Service</h4>
+          <p>
+            Our sophisticated flavor expertise enables us to create inventive
+            concoctions that generate buzz in more ways than one!
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+      </div>
+
+      <div class="home-services-divisions">
+        <img src="Assests/Home_Services_GIF_R3.gif" alt="GIF" />
+      </div>
+
+      <div class="home-services-divisions">
+        <div class="home-services-content">
+          <h4>Staffing</h4>
+          <p>
+            The hand-selected team at 24 Carrots are just as important to our
+            reputation as our gourmet food. Our staff is certainly the best at
+            what they do, and you’ll work with professionals who genuinely care
+            about the success of your event!
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="home-services-content">
+          <h4>Event Production</h4>
+          <p>
+            If mind-blowing spectacles and immersive guest experiences are what
+            you’re after, the specialists at 24 Carrots can pull it off on an
+            epic scale!
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="clients-review-section">
+      <div class="client-review-section-heading-and-para">
+        <h3>Our Happy Clients</h3>
+        <p>
+          Food may be our love language, but words of affirmation always make us
+          ecstatic! Read what our happy clients have to say about how we made
+          their day great.
+        </p>
+      </div>
+      <div class="client-review-section-image-and-review">
+        <div class="client-review-section-image">
+          <img src="Assests/4.1-Kay-McCoy.jpg" alt="IMG" />
+        </div>
+        <div class="client-review-section-reviews">
+          <div class="reviews-and-name">
+            <p class="review">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              sed quibusdam pariatur temporibus. Enim laudantium ea ut suscipit
+              aspernatur natus vel expedita, non quam ad iste atque consectetur
+              ipsum, temporibus, numquam exercitationem.
+            </p>
+            <p class="author">NAme</p>
+            <p class="author-title">Position of Responsibility</p>
+          </div>
+          <div class="next-testimonial-btn">
+            <p>Next Testimonial</p>
+            <button>
+              <img
+                src="Assests/iconmonstr-arrow-right-circle-thin-240.png"
+                alt=""
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blog section -------------- -->
+
+    <section class="blog-buzz-section">
+      <div class="blog-section-container">
+        <h2>What's Cookin</h2>
+        <div class="container-for-blogs">
+          <div class="container-for-blogs-sections flex60">
+            <div class="blog-buzz-content-1">
+              <a class="blog-read-more" href="#">Read More</a>
+              <div class="image-overlay">
+                <img src="Assests/blog-section-img1.jpg" alt="" />
+              </div>
+            </div>
+            <h3 class="catagory-button">
+              <ul class="post-categories">
+                <li><a href="#" rel="category tag">24 Carrots Catering</a></li>
+                <li><a href="#" rel="category tag">Catering</a></li>
+              </ul>
+            </h3>
+
+            <h2>Setting Your Holiday Table</h2>
+            <p>
+              From the first inquiry to final details, we are proud to provide
+              full-service catering, making you feel like a guest at your
+              own&nbsp;event…
+            </p>
+          </div>
+          
+          
+          
+          
+          
+          <div class="container-for-blogs-sections flex40">
+            <div class="blog-buzz-content-2">
+              <a  class="blog-read-more" href="#">Read More</a>
+              <div class="image-overlay">
+                <img src="Assests/blog-section-img1.jpg" alt="" />
+              </div>
+            </div>
+            <h3 class="catagory-button">
+              <ul class="post-categories">
+                <li><a href="#" rel="category tag">24 Carrots Catering</a></li>
+                <li><a href="#" rel="category tag">FEATURED VENUES</a></li>
+              </ul>
+              
+            </h3>
+              <h2>The BEST Venues for Big Holiday Bashes</h2>
+              <p>
+                Make the most the holiday season by thinking BIG! Invite everyone from friends family, clients and the entire company to join in on the fun…
+              </p>
+            </div>
+          <a href="#" class="btn more-blogs" style="text-transform: uppercase;">More from the Blog</a>
+    </div>
+    </section>
+
+
+    <!-- social media handles-------------------- -->
+    <section class="instagram-content-block">
+      <div class="wrapper">
+        <div class="content-for-instagram-section">
+<h2 >Experiences Designed To Be Shared</h2>
+<p>Follow us for more from 24 Carrots.</p>
+<p class="social-media-btns">
+  <a href="https://www.instagram.com/24carrotscatering/" target="_blank"><span class="instagram-btn"></span>Instagram</a>
+  <a href="https://www.pinterest.com/24carrotscaters" target="_blank"><span class="pintrest-btn"></span>Pinterest</a>
+</p>
+        </div>
+        <div class="instagram-videos">
+
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section  -->
+    <section class="contact-section">
+      <div class="contact-section-wrap">
+
+        <div class="contact-section-content">
+          <h2>ENDLESS INSPIRATION</h2>
+          <p class="conatct-section-message">Sign up to our newsletter for fresh updates, encouragement, and exclusive insights.</p>
+        </div>
+        <div class="contact-section-form">
+<form action="#">
+
+  <input type="email" placeholder="Enter Your Email "class="input-btn btn">
+  <button class="signup-btn" >Sign Up</button>
+</form>
+        </div>'
+        <div class="contact-section-action-summary">
+         <p>
+          By clicking Sign Up you’re confirming that you agree with our Terms and Conditions.
+         </p> 
+        </div>
+      </div>
+      <div class="contact-section-image">
+<img src="Assests/contact-section-image.png" alt="">
+      </div>
+    </section>
+  </body>
+</html>
